@@ -1,0 +1,47 @@
+input.phnInput {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 2.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    /* box-sizing: content-box; */
+    animation-name: mui-auto-fill-cancel;
+    -webkit-tap-highlight-color: transparent;
+    border-bottom: 1px solid #8f8f8f;
+    padding-left: 47px;
+    margin-top: 15px;
+    /* max-width: 270px; */
+}
+input.phnInput:focus
+{
+    outline: 0;
+}
+input.phnInput:hover, .ReactPasswordStrength:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.87)!important;
+}
+.react-tel-input .flag-dropdown {
+    background-color: #ffffff!important;
+    border: 0px solid #cacaca!important;
+    
+    height: 29px!important;
+    top:12px!important;
+}
+.react-tel-input .flag-dropdown:hover{ border: 0px!important;}
+.ReactPasswordStrength {
+    font-size: 12px!important;
+    border: 0px solid #c6c6c6!important;
+    border-bottom: 1px solid #8f8f8f!important;
+    /* width: 20%!important; */
+    /* padding: 14px 0px!important; */
+}
+.ReactPasswordStrength input#inputPassword1 {
+    background: #f7f7f7;
+}
+.ReactPasswordStrength-strength-desc{top:65px!important}
+
+   
